@@ -3,7 +3,7 @@ public class Main {
         int transfer = 2200_00;
         int bonusAmount = 100_00;
         int limit = 1000_00;
-        //Значения переменных Transfer,BonusAmount и Limit берется с копейками. Последние два знака - это копейки.
+        //Значения переменных transfer,bonusAmount и limit берется с копейками. Последние два знака - это копейки.
         int totalBonus;
         if (transfer > limit){
             totalBonus = transfer / bonusAmount;
